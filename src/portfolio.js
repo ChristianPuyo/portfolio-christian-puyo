@@ -230,6 +230,29 @@ const bigProjects = {
           url: "https://github.com/ChristianPuyo/SistemaDeGestionAcademica2023.git"
         }
       ]
+    },
+    {
+      image: require("./assets/images/driverLogo.png"),
+      projectName: "The Drivers API",
+      projectDesc: "The project aimed to build a web application using the drivers API, where users can search for drivers, view driver information, filter and sort them, and register a new driver.",
+      footerLink: [
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/ChristianPuyo/The_Drivers_Api.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dogLogo.png"),
+      projectName: "The Dogs API",
+      projectDesc: "The project aimed to build a web application using the dogs API, where users can search for dogs, view dog information, filter and sort them, and register a new dog.",
+      footerLink: [
+       
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/ChristianPuyo/The_Dogs_Api.git"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
