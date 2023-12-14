@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Web Developer 🚀 with experience in building Web using JavaScript / Reactjs / Nodejs / Express  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KKOAStba55Cdj1bjPriEkHJnNhXUw5Op/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -108,22 +108,21 @@ const educationInfo = {
   schools: [
     {
       schoolName: "National University of Ucayali",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      logo: require("./assets/images/unuLogo2.jpg"),
+      subHeader: "Systems Engineer",
+      duration: "2007 - 2014",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Henry",
+      logo: require("./assets/images/logoHenry.jpg"),
+      subHeader: "Developer Web Full Stack",
+      duration: "Noviembre 2022 - Noviembre 2023",
+      
     }
   ]
 };
@@ -193,29 +192,42 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some are real projects, and others built in my free time.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/encinasLogo.png"),
+      projectName: "E-commerce - Las Encinas",
+      projectDesc: "This is a real project, this project is about a chocolate and pastry electronic commerce.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "See Demo",
+          url: "https://www.youtube.com/watch?v=lOe2pWZYnxo"
+        },
+
+        {
+          name: "Deploy",
+          url: "https://las-encinas-boutique-omega.vercel.app/home"
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/ChristianPuyo/E-Commerce"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/suizaLogo.png"),
+      projectName: "Academic Management System",
+      projectDesc: "This is a real project. The application has the functionality to record study plans, students, courses, teaching periods, organize and access notes efficiently, facilitate collaboration and access from multiple devices.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Deploy",
+          url: "https://sia.server.institutosuiza.edu.pe/"
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/ChristianPuyo/SistemaDeGestionAcademica2023.git"
         }
       ]
     }
